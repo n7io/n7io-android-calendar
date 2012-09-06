@@ -5,7 +5,7 @@
 #
 ######################################################################################
 
-OLDSTRING="io.n7.calendarn7";
+OLDSTRING="com.android.calendar";
 NEWSTRING="io.n7.calendar";
 
 FILES=$(grep -r "${OLDSTRING}" ./ --exclude-dir=".svn" --exclude-dir=".git" | awk -F: '{print $1}' | grep src)
