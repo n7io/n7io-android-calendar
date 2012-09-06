@@ -1,8 +1,0 @@
-FILES=$(grep -r "com.android.calendar" ./ --exclude-dir=".svn" --exclude-dir=".git" | awk -F: '{print $1}' | grep -v 'BCK')
-
-for FILE in ${FILES}
-do
-   cp ${FILE} ${FILE}.BCK;
-   #sed 's:com.android.calendar:io.n7.calendar:' < ${FILE} > ${FILE}.tmp
-   #mv ${FILE}.tmp ${FILE} 
-done
