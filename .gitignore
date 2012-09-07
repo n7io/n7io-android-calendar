@@ -15,7 +15,6 @@ gen/
 # Local configuration file (sdk path, etc)
 local.properties
 
-<<<<<<< HEAD
 # BCK files
 *.BCK
 =======
@@ -49,4 +48,3 @@ local.properties
 
 # PDT-specific
 .buildpath
->>>>>>> further sync repos
